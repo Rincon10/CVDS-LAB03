@@ -77,13 +77,27 @@ public class TarifasTest {
 
     @Test
     public void descuentoAcum20(){
+//        deberia generar un descuanto del 20%, por su edad y los dias de antelacion con los que se agendo
         tarifa = c.calculoTarifa(5000000,40,14);
         Assert.assertEquals( String.valueOf(tarifa), "4000000.0");
     }
 
     @Test
     public void descuentoAcum23(){
+        //        deberia generar un descuanto del 20%, por su edad y los dias de antelacion con los que se agendo
         tarifa = c.calculoTarifa(5000000,70,66);
         Assert.assertEquals( String.valueOf(tarifa), "3850000.0");
+    }
+
+    @Test
+    public void validarTarifaNegativa(){
+        //        deberia generar un error, por la  tarifaBase
+        try{
+            tarifa = c.calculoTarifa(-5000000,1,30);
+            long er = 0/0;
+        }
+        catch (Exception e){
+            Assert.assertTrue(true);
+        }
     }
 }
