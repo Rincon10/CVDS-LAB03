@@ -21,7 +21,7 @@ public class Registry {
         else if( !isAlive ){
             registerResult = RegisterResult.DEAD;
         }
-        else if (  age< 0 ){
+        else if (  age<= 0 ){
             registerResult = RegisterResult.INVALID_AGE;
         }
         else if (  age< 18 ){
