@@ -1,4 +1,4 @@
-# CVDS-LAB3
+# CVDS-LAB03
 CVDS-LAB3
 
 ## Integrantes:
