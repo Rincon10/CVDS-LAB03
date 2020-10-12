@@ -73,3 +73,8 @@ $ mvn install:install-file -Dfile=aerodescuentos-1.0.0.jar -DgroupId=edu.eci.cvd
 * Ejecute el comando de Maven para las fases de compilación y pruebas. Verifique el resultado exitoso de todas las pruebas y el reporte generado. 
 
 ![7](https://github.com/Rincon10/CVDS-LAB3/blob/master/resources/TarifasTest.png)
+
+### __Autores__
+
+* Camilo Rincón [Rincon10](https://github.com/Rincon10)
+* Leonardo Galeano [Ersocaut](https://github.com/Ersocaut)
